@@ -1,0 +1,1542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml system="https://pasta.edirepository.org" xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access system="https://pasta.edirepository.org" scope="document" order="allowFirst" authSystem="https://pasta.edirepository.org/authentication">
+    <allow>
+      <principal>ngalle@nd.edu</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Snail SDM Review Supplementary File Ecological Metadata</title>
+    <creator>
+      <individualName>
+        <givenName>Nicholas</givenName>
+        <givenName>A</givenName>
+        <surName>Galle</surName>
+      </individualName>
+      <organizationName>University of Notre Dame</organizationName>
+      <positionName>PhD Student</positionName>
+      <electronicMailAddress>nickgalle99@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-9833-453X</userId>
+    </creator>
+    <abstract>      <para>This is a data package containing two files related to the Galle et al. review on snail SDM best practice adherence. Supplementary file 1 contains the extracted metadata from the included studies, while supplementary file 3 contains the best practice adherence of the included studies, as scored by Galle et al. according to the guidelines presented in Araujo et al., 2019. </para>
+</abstract>
+    <keywordSet>
+      <keyword>Trematoda</keyword>
+      <keyword>freshwater snails</keyword>
+      <keyword>neglected tropical diseases</keyword>
+      <keyword>ecological niche modeling</keyword>
+      <keyword>species distribution model</keyword>
+    </keywordSet>
+    <intellectualRights>      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+</intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+      <url>https://spdx.org/licenses/CC-BY-4.0</url>
+      <identifier>CC-BY-4.0</identifier>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Studies reviewed herein span a global coverage.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-180.0</westBoundingCoordinate>
+          <eastBoundingCoordinate>180.0</eastBoundingCoordinate>
+          <northBoundingCoordinate>90.0</northBoundingCoordinate>
+          <southBoundingCoordinate>-90.0</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2009</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2025-02-15</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ampullaceana balthica</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Burnupia</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Biomphalaria alexandrina</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Biomphalaria angulosa</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Biomphalaria camerunensis</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Biomphalaria choanomphala</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Biomphalaria cousini</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Biomphalaria glabrata</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Biomphalaria kuhniana</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Biomphalaria occidentalis</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Biomphalaria peregrina</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Biomphalaria pfeifferi</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Biomphalaria</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Biomphalaria stanleyi</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Biomphalaria straminea</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Biomphalaria sudanica</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Biomphalaria tenagophila</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Digoniostoma siamense goniomphalos</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Bulinus africanus</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Bulinus camerunensis</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Bulinus forskalii</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Bulinus globosus</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Bulinus jousseaumei</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Bulinus senegalensis</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Bulinus truncatus</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cipangopaludina chinensis</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Drepanotrema cimex</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Drepanotrema depressissimum</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Drepanotrema lucidum</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Drepanotrema lucidum</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Ferrissia</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Galba schirazensis</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Radix natalensis</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Galba truncatula</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Melanoides tuberculata</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Oncomelania hupensis</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Genus</taxonRankName>
+          <taxonRankValue>Physa</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Physella acuta</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pomacea canaliculata</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pseudosuccinea columella</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Radix auricularia</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Semisulcospira ningpoensis</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Semisulcospira libertina</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sinotaia limnophila</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sinotaia quadrata</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Stenophysa marmorata</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Uncancylus concentricus</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Nicholas</givenName>
+        <surName>Galle</surName>
+      </individualName>
+      <organizationName>University of Notre Dame</organizationName>
+      <positionName>PhD Student</positionName>
+      <electronicMailAddress>nickgalle99@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-9833-453X</userId>
+    </contact>
+    <publisher>
+      <individualName>
+        <givenName>Nicholas</givenName>
+        <givenName>A</givenName>
+        <surName>Galle</surName>
+      </individualName>
+      <organizationName>University of Notre Dame</organizationName>
+      <positionName>PhD Student</positionName>
+      <electronicMailAddress>nickgalle99@gmail.com</electronicMailAddress>
+      <userId directory="https://orcid.org">0000-0002-9833-453X</userId>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>          <para>Studies screened to make the datasets herein were collected through a systematic literature review to identify studies that applied SDM methodologies to snail intermediate hosts. For all studies metadata was extracted regarding study focus, species modeled, SDM methodologies applied, and adherence to Open Access and best modeling practices. </para>
+</description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Synthesis and analysis of species distribution models applied to snail intermediate hosts.</title>
+      <personnel>
+        <individualName>
+          <givenName>Nicholas</givenName>
+          <givenName>A</givenName>
+          <surName>Galle</surName>
+        </individualName>
+        <organizationName>University of Notre Dame</organizationName>
+        <positionName>PhD Student</positionName>
+        <electronicMailAddress>nickgalle99@gmail.com</electronicMailAddress>
+        <userId directory="https://orcid.org">0000-0002-9833-453X</userId>
+        <role>First Author</role>
+      </personnel>
+    </project>
+    <dataTable>
+      <entityName>Supplement_1_utf8</entityName>
+      <entityDescription>Data table from supplementary file 1, containing extracted metadata from studies applying SDMs to snail intermediate hosts. </entityDescription>
+      <physical>
+        <objectName>Supplement_1_utf8.csv</objectName>
+        <size unit="byte">27110</size>
+        <authentication method="MD5">a8cd51deec09f973419790be7ef53a94</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://ezeml.edirepository.org/user-data/Nicholas_Galle-8a5d935ed6a998117c2bcbeb51056a34/uploads/Supplementary%20File%201%20EML/Supplement_1_utf8.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="8d2085d6-5059-4aa5-9ea5-3f49135c95e9">
+          <attributeName>Review Entry</attributeName>
+          <attributeLabel>Review Entry</attributeLabel>
+          <attributeDefinition>This is the entry number assigned to the study from the initial screening process.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>integer</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="8e5d3185-0368-4963-9ad9-9d414dcd47c1">
+          <attributeName>Authors</attributeName>
+          <attributeLabel>Authors</attributeLabel>
+          <attributeDefinition>This is the entry designating the authors of the published study.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="609ffa2f-2d0a-4827-a5a6-4f87049fb0a1">
+          <attributeName>Title</attributeName>
+          <attributeLabel>Title</attributeLabel>
+          <attributeDefinition>This is the entry designating the title of the study.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="4dfdff97-1798-486e-acf9-41c6065ddcd9">
+          <attributeName>Journal</attributeName>
+          <attributeLabel>Journal</attributeLabel>
+          <attributeDefinition>This is the entry designating the journal the study was published in.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="9aadfcb8-1f9d-43c0-b559-17dfedd4e252">
+          <attributeName>Year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>This is the entry designating the year the study was published in.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Year</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+            <valueURI label="Year">http://qudt.org/vocab/unit/YR</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="ee4095a3-0201-464f-9345-e0093138ce17">
+          <attributeName>Schisto</attributeName>
+          <attributeLabel>Schisto</attributeLabel>
+          <attributeDefinition>This is the entry designating whether the studies model species that transmit schistosomiasis.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Indicates that some, but not all, of the species modeled in this study transmit schistosomiasis. </definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Indicates that none of the species modeled in this study transmit schistosomiasis.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Y</code>
+                    <definition>Indicates that all of the species modeled in this study transmit schistosomiasis.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1d8dc67a-0a00-41ee-80cf-3846c8dd209b">
+          <attributeName>Snail species name in article</attributeName>
+          <attributeLabel>Snail species name in article</attributeLabel>
+          <attributeDefinition>This is the entry designating the species name used in the study. </attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="8444b198-a8dc-43b2-87de-8cd1a60e255b">
+          <attributeName>Snail species accepted name (AphiaID)</attributeName>
+          <attributeLabel>Snail species accepted name (AphiaID)</attributeLabel>
+          <attributeDefinition>This is the entry designating the accepted versions of the species names used in the published studies according to the World Registry of Marines Species database, with the WoRMS AphiaID in parentheses after the accepted species name.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="0c71ec45-3914-47ee-92cf-92ea66b3a26a">
+          <attributeName>Trematode_Species</attributeName>
+          <attributeLabel>Trematode_Species</attributeLabel>
+          <attributeDefinition>This is the entry designating the species of trematode(s) transmitted by the snail species in a given study. </attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="5d3afbf8-8e42-4a52-8de6-3b2c3807282d">
+          <attributeName>Scale</attributeName>
+          <attributeLabel>Scale</attributeLabel>
+          <attributeDefinition>This is the entry designating the geographic scale the study was conducted at.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>This indicates the study had a global scale.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>This indicates the study had a national scale (i.e. across the entirety of one country).</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R</code>
+                    <definition>This indicates the study had a regional scale (i.e. across multiple countries).</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SN</code>
+                    <definition>This indicates the study had a sub-national scale (i.e. across only a portion of a country).</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="0ab20062-82dd-4c1e-929a-52e9f7647f5c">
+          <attributeName>Continent</attributeName>
+          <attributeLabel>Continent</attributeLabel>
+          <attributeDefinition>This is the entry designating what continent studies were focused on</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Africa</code>
+                    <definition>Africa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Africa;Europe</code>
+                    <definition>Africa and Europe</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Asia</code>
+                    <definition>Asia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Global</code>
+                    <definition>Global</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>South America</code>
+                    <definition>South America</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ee6ed797-ccd2-40c9-94fa-721bbe834496">
+          <attributeName>Country</attributeName>
+          <attributeLabel>Country</attributeLabel>
+          <attributeDefinition>This is the entry designating what countries the study focused on.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="c4ba2bb3-8620-4e41-bb5c-5ff5d81cc180">
+          <attributeName>Model Approach</attributeName>
+          <attributeLabel>Model Approach</attributeLabel>
+          <attributeDefinition>This is the entry designating what modeling approach the studies employed.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>ENS</code>
+                    <definition>Ensemble modeling approach was used</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MIX</code>
+                    <definition>Mixed modeling approach was used</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MIX; ENS</code>
+                    <definition>Mixed and ensemble modeling approaches were used.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Single modeling approach was used</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S;ENS</code>
+                    <definition>Single and ensemble modeling approaches were used.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="bbf74b66-98ac-4440-8f3f-26e732eea001">
+          <attributeName>Model</attributeName>
+          <attributeLabel>Model</attributeLabel>
+          <attributeDefinition>This is the entry designating what model algorithms were used.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="7f2e4737-e485-4e54-926c-b9800bbbe6d0">
+          <attributeName>Occurrence/Abundance</attributeName>
+          <attributeLabel>Occurrence/Abundance</attributeLabel>
+          <attributeDefinition>This is the entry designating whether the studies use species occurrence or abundance in the response variable.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Abundance</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NS</code>
+                    <definition>Not stated</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>O</code>
+                    <definition>Occurrence</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>O;A</code>
+                    <definition>Occurrence and abundance</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="44f71fca-d366-4199-9a69-4effa5eccef8">
+          <attributeName>Datasource_Occ</attributeName>
+          <attributeLabel>Datasource_Occ</attributeLabel>
+          <attributeDefinition>This is the entry designating what the source for the response variable was.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="e4b1d785-2311-4cc2-89a0-c19faa2ae671">
+          <attributeName>Predictors</attributeName>
+          <attributeLabel>Predictors</attributeLabel>
+          <attributeDefinition>This is the entry designating what category of predictor variables were used.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="c711a774-2171-4c18-b7f1-a4c43a2dbfc1">
+          <attributeName>Resolution</attributeName>
+          <attributeLabel>Resolution</attributeLabel>
+          <attributeDefinition>This is the entry designating what resolutions were used in the predictor variable dataset.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="5b482048-d648-427a-ac3d-873f190a934e">
+          <attributeName>Datasource_Predictors</attributeName>
+          <attributeLabel>Datasource_Predictors</attributeLabel>
+          <attributeDefinition>This is the entry designating the source of the predictor variables.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="23daa9fd-86b3-4cd1-ad20-b8d16d921f17">
+          <attributeName>Collinearity</attributeName>
+          <attributeLabel>Collinearity</attributeLabel>
+          <attributeDefinition>This is the entry designating how studies assessed collinearity among predictor variables.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>COR</code>
+                    <definition>Pearson's correlation</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>COR;PCA</code>
+                    <definition>Pearson's correlation and principle component analysis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NO</code>
+                    <definition>Collinearity was not tested for</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PCA</code>
+                    <definition>Principle component analysis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VIF</code>
+                    <definition>Variance inflation factor</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="7b1eee1c-7000-4a2d-afe1-e8f932179ff2">
+          <attributeName>Testing</attributeName>
+          <attributeLabel>Testing</attributeLabel>
+          <attributeDefinition>This is the entry designating how the testing dataset was created.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>GEO</code>
+                    <definition>Geographically stratified</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IND</code>
+                    <definition>Independent dataset</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NO</code>
+                    <definition>No testing dataset, or method not provided</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Other</code>
+                    <definition>Other</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RAN</code>
+                    <definition>Random stratification</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RES</code>
+                    <definition>Re-substitution approach used</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="fef78c1f-85d3-4eaf-a110-34579dc96d51">
+          <attributeName>Evaluation</attributeName>
+          <attributeLabel>Evaluation</attributeLabel>
+          <attributeDefinition>This is the entry designating how studies evaluated model performance.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="2467bb89-3e94-49fe-811b-e5dbc7ab4208">
+          <attributeName>Purpose</attributeName>
+          <attributeLabel>Purpose</attributeLabel>
+          <attributeDefinition>This is the entry designating study purpose, as defined by Araujo et al., 2019.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>EXPL</code>
+                    <definition>Explanatory</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PRED</code>
+                    <definition>Predictive</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PROJ</code>
+                    <definition>Projection</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="ff4db63e-571a-4422-aae5-4f6e0858437e">
+          <attributeName>GlobalTaxonomy</attributeName>
+          <attributeLabel>GlobalTaxonomy</attributeLabel>
+          <attributeDefinition>This is the entry designating whether the study references a global taxonomy for species names.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>NO</code>
+                    <definition>No</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PARTIAL</code>
+                    <definition>Indirect mention</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="49f61bfd-cb86-49ec-ba85-2705d7f8db74">
+          <attributeName>GlobalTaxonomy_database</attributeName>
+          <attributeLabel>GlobalTaxonomy_database</attributeLabel>
+          <attributeDefinition>This is the entry designating what global taxonomy is referenced.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>GBIF</code>
+                    <definition>References the GBIF Backbone Taxonomy</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NO</code>
+                    <definition>No taxonomy referenced</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="4b4d041f-e3e0-40e6-a856-398a28689607">
+          <attributeName>OpenAccess_Response</attributeName>
+          <attributeLabel>OpenAccess_Response</attributeLabel>
+          <attributeDefinition>This is the entry designating whether the studies provide open access to their response variable dataset.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>NO</code>
+                    <definition>No open access to response dataset.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>YES</code>
+                    <definition>Open access to response dataset. </definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="57b6ac1b-5c95-419b-af99-61fd8b84bcd6">
+          <attributeName>OpenAccess_Predictor</attributeName>
+          <attributeLabel>OpenAccess_Predictor</attributeLabel>
+          <attributeDefinition>This is the entry designating whether studies provide open access to their predictor dataset.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>NO</code>
+                    <definition>No open access to predictor dataset.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>YES</code>
+                    <definition>Open access to predictor dataset.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="85931a9a-39ba-4bc7-b9b2-db0e0ba68cfb">
+          <attributeName>OpenAccess_Code</attributeName>
+          <attributeLabel>OpenAccess_Code</attributeLabel>
+          <attributeDefinition>This is the entry designating whether studies provide open access to their code used for statistical analysis.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>NO</code>
+                    <definition>No open access to code.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>YES</code>
+                    <definition>Open access to code</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>48</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>Supplement_3_utf</entityName>
+      <entityDescription>This is the data table corresponding to scores of study best practice adherence, as outline in Araujo et al., 2019.</entityDescription>
+      <physical>
+        <objectName>Supplement_3_utf.csv</objectName>
+        <size unit="byte">6547</size>
+        <authentication method="MD5">f88ee6626d217bbbc1fd6ba991a3503b</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://ezeml.edirepository.org/user-data/Nicholas_Galle-8a5d935ed6a998117c2bcbeb51056a34/uploads/Supplementary%20File%201%20EML/Supplement_3_utf.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="ee8b08ae-a906-4a59-bfb6-518b085503a2">
+          <attributeName>1a</attributeName>
+          <attributeLabel>1a</attributeLabel>
+          <attributeDefinition>This is the entry related to best practice adherence for occurrence/abundance sampling.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Deficient</code>
+                    <definition>Deficient</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Bronze</code>
+                    <definition>Bronze</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Gold</code>
+                    <definition>Gold</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Silver</code>
+                    <definition>Silver</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="3fb60d20-c44f-400a-9419-ade2749d667e">
+          <attributeName>1b</attributeName>
+          <attributeLabel>1b</attributeLabel>
+          <attributeDefinition>This is the entry related to best practice adherence for species identification.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Bronze</code>
+                    <definition>Bronze</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Deficient</code>
+                    <definition>Deficient</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Gold</code>
+                    <definition>Gold</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Silver</code>
+                    <definition>Silver</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="a985065f-ac40-4f01-80a8-c615d3c0403d">
+          <attributeName>1c</attributeName>
+          <attributeLabel>1c</attributeLabel>
+          <attributeDefinition>This is the entry related to best practice adherence for spatial accuracy of response variable.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Bronze</code>
+                    <definition>Bronze</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Deficient</code>
+                    <definition>Deficient</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Gold</code>
+                    <definition>Gold</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Silver</code>
+                    <definition>Silver</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="9d25f19b-e521-4699-adc1-c99f5849c5d3">
+          <attributeName>1d</attributeName>
+          <attributeLabel>1d</attributeLabel>
+          <attributeDefinition>This is the entry related to best practice adherence for environmental extent of the study.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Bronze</code>
+                    <definition>Bronze</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Deficient</code>
+                    <definition>Deficient</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Silver</code>
+                    <definition>Silver</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="dfa7bd66-0526-4a06-ac7f-e9e6d94b94eb">
+          <attributeName>1e</attributeName>
+          <attributeLabel>1e</attributeLabel>
+          <attributeDefinition>This is the entry related to best practice adherence for geographic extent of the study.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Bronze</code>
+                    <definition>Bronze</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Deficient</code>
+                    <definition>Deficient</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Silver</code>
+                    <definition>Silver</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="946c8de0-fae7-486e-91ab-352f2be637af">
+          <attributeName>2a</attributeName>
+          <attributeLabel>2a</attributeLabel>
+          <attributeDefinition>This is the entry related to best practice adherence for choice of predictor variables.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Bronze</code>
+                    <definition>Bronze</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Deficient</code>
+                    <definition>Deficient</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Silver</code>
+                    <definition>Silver</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="f405fbbe-decb-45d3-ae2c-25ed295471ab">
+          <attributeName>2b</attributeName>
+          <attributeLabel>2b</attributeLabel>
+          <attributeDefinition>This is the entry related to best practice adherence for spatial and temporal resolution.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Bronze</code>
+                    <definition>Bronze</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Deficient</code>
+                    <definition>Deficient</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Gold</code>
+                    <definition>Gold</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Silver</code>
+                    <definition>Silver</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="5840376b-3906-4415-92aa-549e41b22aab">
+          <attributeName>2c</attributeName>
+          <attributeLabel>2c</attributeLabel>
+          <attributeDefinition>This is the entry related to best practice adherence for predictor uncertainty.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Bronze</code>
+                    <definition>Bronze</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Deficient</code>
+                    <definition>Deficient</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Silver</code>
+                    <definition>Silver</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="a7533e21-d9cb-4e36-bf6f-a8f28f16d5ea">
+          <attributeName>3a</attributeName>
+          <attributeLabel>3a</attributeLabel>
+          <attributeDefinition>This is the entry related to best practice adherence for model complexity.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Bronze</code>
+                    <definition>Bronze</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Deficient</code>
+                    <definition>Deficient</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Silver</code>
+                    <definition>Silver</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="d8bd8cde-5877-41ce-a8db-12d74e008ecf">
+          <attributeName>3b</attributeName>
+          <attributeLabel>3b</attributeLabel>
+          <attributeDefinition>This is the entry related to best practice adherence for bias and noise.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Bronze</code>
+                    <definition>Bronze</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Deficient</code>
+                    <definition>Deficient</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Silver</code>
+                    <definition>Silver</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="4d2d70bc-0aa4-4c78-a51a-9884c2803b28">
+          <attributeName>3c</attributeName>
+          <attributeLabel>3c</attributeLabel>
+          <attributeDefinition>This is the entry related to best practice adherence for predictor collinearity.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Bronze</code>
+                    <definition>Bronze</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Deficient</code>
+                    <definition>Deficient</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Gold</code>
+                    <definition>Gold</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Silver</code>
+                    <definition>Silver</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="2eec281f-de6b-46af-a09c-4ed413fa79b3">
+          <attributeName>3d</attributeName>
+          <attributeLabel>3d</attributeLabel>
+          <attributeDefinition>This is the entry related to best practice adherence for model and parameter uncertainty.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Bronze</code>
+                    <definition>Bronze</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Deficient</code>
+                    <definition>Deficient</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Silver</code>
+                    <definition>Silver</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1f56207e-bfce-4a12-9fae-07dc5b615fcb">
+          <attributeName>4a</attributeName>
+          <attributeLabel>4a</attributeLabel>
+          <attributeDefinition>This is the entry related to best practice adherence for model assumptions.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Bronze</code>
+                    <definition>Bronze</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Deficient</code>
+                    <definition>Deficient</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Silver</code>
+                    <definition>Silver</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="5a5815fd-0cf6-47ac-82af-4aa2500df4c9">
+          <attributeName>4b</attributeName>
+          <attributeLabel>4b</attributeLabel>
+          <attributeDefinition>This is the entry related to best practice adherence for model outputs.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Bronze</code>
+                    <definition>Bronze</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Deficient</code>
+                    <definition>Deficient</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Silver</code>
+                    <definition>Silver</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="6f722282-49c8-4401-a4b5-bd80e035b501">
+          <attributeName>4c</attributeName>
+          <attributeLabel>4c</attributeLabel>
+          <attributeDefinition>This is the entry related to best practice adherence for model performance.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Bronze</code>
+                    <definition>Bronze</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Deficient</code>
+                    <definition>Deficient</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="4fdbcf7e-e528-4925-b49e-b4e82793eb31">
+          <attributeName>Year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>This is the entry designating the year the study was published in.</attributeDefinition>
+          <storageType typeSystem="XML Schema Datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Year</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation>
+            <propertyURI label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+            <valueURI label="Year">http://qudt.org/vocab/unit/YR</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+      <caseSensitive>no</caseSensitive>
+      <numberOfRecords>48</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>Area_in_line</entityName>
+      <entityDescription>R code used to generate analyses regarding area in the line for best practice adherence.</entityDescription>
+      <physical>
+        <objectName>Area_in_line.R</objectName>
+        <size unit="byte">6505</size>
+        <authentication method="MD5">8d8229cbcd596d8a571c546d89cd563b</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>.R</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://ezeml.edirepository.org/user-data/Nicholas_Galle-8a5d935ed6a998117c2bcbeb51056a34/uploads/Supplementary%20File%201%20EML/Area_in_line.R</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>.R</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>figs1_2</entityName>
+      <entityDescription>R code used to generate figures 1 and 2 in the Galle et al. review of SDMs applied to snail intermediate hosts.</entityDescription>
+      <physical>
+        <objectName>figs1_2.R</objectName>
+        <size unit="byte">6075</size>
+        <authentication method="MD5">b05836480d9a4b71b3c3f1e28ea838c1</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>.R</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://ezeml.edirepository.org/user-data/Nicholas_Galle-8a5d935ed6a998117c2bcbeb51056a34/uploads/Supplementary%20File%201%20EML/figs1_2.R</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>.R</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>temp trend</entityName>
+      <entityDescription>R code to do statistical analysis relating to temporal trends in bets practice adherence.</entityDescription>
+      <physical>
+        <objectName>temp trend.R</objectName>
+        <size unit="byte">7744</size>
+        <authentication method="MD5">8cc1208e0d7339320f0e90febf88d055</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>.R</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://ezeml.edirepository.org/user-data/Nicholas_Galle-8a5d935ed6a998117c2bcbeb51056a34/uploads/Supplementary%20File%201%20EML/temp%20trend.R</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>.R</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="integer" name="integer">
+          <stmml:description></stmml:description>
+        </stmml:unit>
+        <stmml:unit id="Year" name="Year">
+          <stmml:description></stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <emlEditor app="ezEML" release="2025.09.10"/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

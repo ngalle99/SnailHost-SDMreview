@@ -1,0 +1,9 @@
+ezEML Data Archive Manifest
+ezEML Release 2025.09.10
+--------------------
+JSON
+Supplementary File 1 EML.json
+41aba7ba6fe8ce40aa3b759ea3f0e1da
+XML
+Supplementary File 1 EML.xml
+8df798fcb63c6f7df96b83b858d6abd6
