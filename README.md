@@ -1,6 +1,6 @@
 # SnailHost-SDMreview
 
-This is the associated code and data for the manuscript "Species distribution modeling of Trematoda intermediate hosts: trends, gaps, and adherence to best practices." If you have any further questions or requests, please contact the corresponding author. 
+This is the associated code and data for the manuscript "Species distribution modeling of snail hosts in neglected disease systems: current limitations and future opportunities." If you have any further questions or requests, please contact me at nickgalle99@gmail.com or ngalle@nd.edu. 
 
 You will find metadata compliant with Ecological Metadata standards, see the .xml and .json files above. 
 
@@ -14,4 +14,4 @@ Department of Biological Sciences
 
 University of Notre Dame
 
-Email: ngalle@nd.edu
+Email: nickgalle99@gmail.com , ngalle@nd.edu
